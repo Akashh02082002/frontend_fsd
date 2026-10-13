@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset style="width: 40%; margin: auto;">
+            <table cellpadding="3" cellspacing="3">
+                <tr>
+                    <td><label>Employee Name</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="employee_firstname" required></td>
+                    <td><input type="text" name="employee_lastname"></td>
+                </tr>
+                <tr>
+                    <td><label>Firstname</label></td>
+                    <td><label>Lastname</label></td>
+                </tr>
+                <tr>
+                    <td><label>Employee ID Number</label></td>                
+                </tr>
+            </table>
+
+            <input type="number" name="emp id">
+            <br>
+            <br>
+
+            <label>Department</label>
+            <br>
+            <input type="text" name="department">
+            <br>
+            <br>
+
+            <label>Position</label>
+            <br>
+            <input type="text" name="position">
+            <br>
+            <br>
+            
+            <label>Date of Incident</label>
+            <br>
+            <input type="date" name="incident_date">
+            <br>
+            <label>dd-mmm-yyy</label>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <td><label>Nature of Complaint</label></td>
+                </tr>
+                <tr>
+                    <td><fieldset><input type="radio" name="complaint_nature">Discrinmation</input></fieldset></td>
+                </tr>
+                <tr>
+                    <td><fieldset><input type="radio" name="complaint_nature">Harassment</input></fieldset></td>
+                </tr>
+                <tr>
+                    <td><fieldset><input type="radio" name="complaint_nature">Conflict with co-worker</input></fieldset></td>
+                </tr>
+                <tr>
+                    <td><fieldset><input type="radio" name="complaint_nature">Workplace Safety Concern</input></fieldset></td>
+                <tr>
+                    <td><fieldset><input type="radio" name="complaint_nature">Other</input></fieldset></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            
+            <br>
+            <label>Details of Incident</label><br>
+            <textarea name="incident_details" rows="10" cols="80"></textarea>
+            <br>
+            <br>
+            <br>
+            
+            <input type="checkbox" >I Acknowledge that the information provided in this complaint form is the true and accurate to the best of my knowledge.<br>
+            <br>
+            <br>
+            <input  type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
