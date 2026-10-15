@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+.head{
+    text-align: center; 
+    padding: 30px;
+    color:white;
+    background-color: rgb(41, 41, 55);
+    font-size: 15px;
+    letter-spacing: 1px;
+    position:sticky;
+    top: 0;
+    /* position: relative; */
+    z-index: 100;
+}
+.content{
+    padding: 15px;
+    margin: 30px;
+    background-color: rgb(29, 184, 208);
+    color: black;
+    position: sticky;
+    top: 100px;
+    /* background-color: #55efc4; */
+    /* padding: 15px; */
+    font-weight: bold;
+    /* margin-bottom: 30px; */
+    /* border-left: 6px solid #00b894 */
+}
+.sec1{
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 20px;
+}
+.sec1 p{
+    text-indent: 30px;
+    /* letter-spacing: 1px; */
+    word-spacing: 3px;
+    font-size: larger;
+}
+.sec2{
+    padding: 20px;
+    margin: 20px;
+    background-color: antiquewhite;
+    position: relative;
+}
+.sec2 p{
+    text-indent: 20px;
+}
+.sec2 button{
+    position: relative  ;
+    top:-35px;
+    left:1300px;
+    background-color: blue;
+    padding: 8px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.sec2 p{
+    word-spacing: 3px;
+}
+.sec3{
+    background-color: blue;
+    margin: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    color: whitesmoke;
+}
+.sec3 p{
+    text-indent: 25px;
+    word-spacing: 3px;
+    font-weight: 500;
+}
+.sec4{
+    background-color: antiquewhite;
+    /* position: relative; */
+    padding: 30px;
+    margin-top:50px;
+    margin-left: 18px;;
+}
+.sec4 ul{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.sec4 li{
+    list-style: square;
+}
+.sec5{
+    margin-top:50px;
+    margin-left:18px;
+    padding: 30px;
+    background-color: beige;
+    font-weight: 600;
+    word-spacing: 4px;
+    left: .5px;
+    /* border-radius: 2px;
+    border-style: double;
+    border-color: black; */
+}
+.sec6{
+    margin-top:50px;
+    margin-left:18px;
+    padding: 30px;
+    background-color: azure;
+}
+.sec p{
+    word-spacing: 4px;
+    letter-spacing: .2px;
+
+}
+footer{
+    margin-top: 120px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+}
