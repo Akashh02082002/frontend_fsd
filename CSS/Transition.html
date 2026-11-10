@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+            color: white;
+            border-radius: 50%;
+            border: 5px solid #afe4e2;
+            border-top: 5px solid rgb(20, 106, 123);
+            text-align: center;
+            align-content: center;
+            font-size: 25px;
+            font-weight: bolder;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            transition-duration: 5s;
+            transition-timing-function: ease-in-out;
+            transition-property: all;
+            animation-name: spin;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+
+           
+        }
+        .box:hover{
+            background-color: yellow;
+            /* height: 200px;
+            width: 200px; */
+            color: black;
+            transform: skewX(-180deg);
+        }
+
+        @keyframes spin {
+         from{
+           transform: rotate(0deg);
+           transform: ;
+         }  
+         to{
+           transform: rotate(360deg);
+         }          
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
